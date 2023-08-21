@@ -1,0 +1,42 @@
+<h2 id="quantifiers">Quantifiers</h2>
+<ol>
+<li><p>Consider the predicate <span class="math inline">\(P(x,y,z):=``2x+5y−6z=1&quot;\)</span>. Which of the following propositions are true:</p>
+<ol>
+<li><p><span class="math inline">\(\forall x\forall y\forall zP(x,y,z)\)</span></p></li>
+<li><p><span class="math inline">\(\forall x\forall y\exists zP(x,y,z)\)</span></p></li>
+<li><p><span class="math inline">\(\forall x\exists y\exists zP(x,y,z)\)</span></p></li>
+<li><p><span class="math inline">\(\exists x\exists y\exists zP(x,y,z)\)</span></p></li>
+</ol></li>
+<li><p>Which of these are true no matter what the predicate P(x,y) is. For each of the others, find an example for which it does not hold.</p>
+<ol>
+<li><p><span class="math inline">\(\forall x\exists yP(x,y)≡\exists y\forall xP(x,y)\)</span></p></li>
+<li><p><span class="math inline">\(\forall x\forall yP(x,y)≡\forall y\forall xP(x,y)\)</span></p></li>
+<li><p><span class="math inline">\(\exists x\exists yP(x,y)≡\exists y\exists xP(x,y)\)</span></p></li>
+</ol></li>
+<li><p>Let <span class="math inline">\(Q(x,y)\)</span> denote the predicate “<span class="math inline">\(x\)</span> is a question from Quiz <span class="math inline">\(y\)</span>”. Let <span class="math inline">\(D(x)\)</span> denote the predicate “<span class="math inline">\(x\)</span> is difficult”. Write expressions for the following statements using quantifiers, <span class="math inline">\(Q\)</span>, and <span class="math inline">\(D\)</span>:</p>
+<ol>
+<li><p>“Quiz 3 has exactly one difficult question”</p></li>
+<li><p>“Every quiz will have at least one difficult question”</p></li>
+<li><p>“For some quizzes, every question will be difficult”</p></li>
+<li><p>“For some quizzes, at most one question will be easy”</p></li>
+</ol></li>
+<li><p>One can define a new quantifier <span class="math inline">\(\exists !xP(x)\)</span> to mean that “there exists a unique <span class="math inline">\(x\)</span> such that <span class="math inline">\(P(x)\)</span> is true”. Show that this can always be expressed by an expression involving only the usual two quantifiers, <span class="math inline">\(\exists\)</span>, and <span class="math inline">\(\forall\)</span>. (Hint: you want to say that it exists and is unique. What does it mean to say that there is a unique <span class="math inline">\(x\)</span> satisfying a predicate? Try considering its negation if that helps. You may assume that there is some notion of equality between the objects under consideration so that it makes sense to ask if “a=b” for any given a and b)</p>
+<h2 id="deterministic-finite-state-automata">Deterministic finite state automata</h2></li>
+<li><p>Design a deterministic finite state automaton over the alphabet <span class="math inline">\(\Sigma={0,1}\)</span> that will accept a string if and only if it</p>
+<ol>
+<li><p>is the empty string</p></li>
+<li><p>is not the empty string</p></li>
+<li><p>is precisely the string 111</p></li>
+<li><p>begins with the substring 111</p></li>
+<li><p>is the empty string or begins with the substring 111</p></li>
+<li><p>ends with the substring 111</p></li>
+<li><p>begins with 0 and ends with 1</p></li>
+<li><p>contains the substring 111</p></li>
+</ol></li>
+<li><p>Show that if we can design a finite state automaton that accepts strings with certain properties and rejects others, then we can also design an automaton that does the same job but has only one accept state.</p></li>
+<li><p>Show that if a language <span class="math inline">\(L\)</span> over some alphabet <span class="math inline">\(\Sigma\)</span> is regular (a finite state automaton can be designed to accept strings in the language and reject the others), then even <span class="math inline">\(\Sigma^* \setminus L\)</span> is also regular.</p></li>
+<li><p>Consider the alphabet <span class="math inline">\(\Sigma=\{0,1,…,n,(,),+,−,∗,/\}\)</span>. Prove that it is impossible to build a finite state automaton that will reject precisely those strings over <span class="math inline">\(\Sigma\)</span> that have mis-matched parentheses but accept those with all their parentheses matched. For example, it should reject “(5 + 6 - 9” but should accept “(5+6)-9”</p></li>
+<li><p>Consider the alphabet <span class="math inline">\(\Sigma={1}\)</span> and let <span class="math inline">\(L:=\{1^p \ |\ \textrm{p is a prime}\}\)</span>. Prove that <span class="math inline">\(L\)</span> cannot be recognized by a finite state automaton.</p></li>
+<li><p>Consider a finite state automaton, <span class="math inline">\(M\)</span>, that recognizes a language, <span class="math inline">\(L\)</span>, over an alphabet, <span class="math inline">\(\Sigma\)</span>. If we now enlarge the alphabet to <span class="math inline">\(\Sigma′\)</span>, i.e. <span class="math inline">\(\Sigma⊂\Sigma\)</span>′, but consider the same set strings as before as our language, how would you modify <span class="math inline">\(M\)</span> to recognize this language? Note that while it accepts exactly the same strings as before, it must reject a lot more strings.</p></li>
+<li><p>By our definition, a finite state automaton must read the entire input even if it is already clear that the string must be rejected (for example, if the language includes all strings beginning with a 0). Let us define a “haltable automaton” that can also reject and stop reading the string when there is no point in doing so. Such an automaton may be represented by <span class="math inline">\((Q,\Sigma,\delta,q_0,F,H)\)</span> where <span class="math inline">\(H\)</span> denotes the subset of “reject and halt states” and the other symbols carry their usual meanings. It works as usual except that if the automaton enters a state in <span class="math inline">\(H\)</span>, it immediately halts and rejects the string reading no more characters. Show that for any such “haltable automaton”, the language that it recognizes can also be recognized by a standard deterministic finite state automaton. Therefore, despite the improvement, “haltable automata” recognize no more languages than the usual deterministic finite state automata can.</p></li>
+</ol>
