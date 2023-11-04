@@ -1,53 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <title>MTH406 Theory of Computation</title>
-    <link href="http://sejdm.github.io/mth406/atom.xml" rel="self" />
-    <link href="http://sejdm.github.io/mth406" />
-    <id>http://sejdm.github.io/mth406/atom.xml</id>
+    <title>Shane - RSS feed</title>
+    <link href="http://blog.shane/atom.xml" rel="self" />
+    <link href="http://blog.shane" />
+    <id>http://blog.shane/atom.xml</id>
     <author>
-        <name>Shane D'Mello</name>
-        <email>shane@iisermohali.ac.in</email>
+        <name>Shane</name>
+        <email>shane.dmello@gmail.com</email>
     </author>
-    <updated>2023-10-15T03:32:28+5:30</updated>
-    <entry>
-    <title>Exercise sheet 5</title>
-    <link href="http://sejdm.github.io/mth406/assignments/2023-10-15-exercises05.html" />
-    <id>http://sejdm.github.io/mth406/assignments/2023-10-15-exercises05.html</id>
-    <published>2023-10-15T00:00:00Z</published>
-    <updated>2023-10-15T03:32:28+5:30</updated>
-    <summary type="html"><![CDATA[Exercise sheet 5 has been posted.]]></summary>
-</entry>
-<entry>
-    <title>Exercise sheet 4</title>
-    <link href="http://sejdm.github.io/mth406/assignments/2023-09-26-exercises04.html" />
-    <id>http://sejdm.github.io/mth406/assignments/2023-09-26-exercises04.html</id>
-    <published>2023-09-26T00:00:00Z</published>
-    <updated>2023-09-27T00:02:29+5:30</updated>
-    <summary type="html"><![CDATA[Exercise sheet 4 has been posted.]]></summary>
-</entry>
-<entry>
-    <title>Exercise sheet 3</title>
-    <link href="http://sejdm.github.io/mth406/assignments/2023-09-19-exercises03.html" />
-    <id>http://sejdm.github.io/mth406/assignments/2023-09-19-exercises03.html</id>
-    <published>2023-09-19T00:00:00Z</published>
-    <updated>2023-09-20T15:32:49+5:30</updated>
-    <summary type="html"><![CDATA[Exercise sheet 3 has been posted.]]></summary>
-</entry>
-<entry>
-    <title>Exercise sheet 2</title>
-    <link href="http://sejdm.github.io/mth406/assignments/2023-09-01-exercises02.html" />
-    <id>http://sejdm.github.io/mth406/assignments/2023-09-01-exercises02.html</id>
-    <published>2023-09-01T00:00:00Z</published>
-    <updated>2023-09-02T01:29:06+5:30</updated>
-    <summary type="html"><![CDATA[Exercise sheet 2 has been posted.]]></summary>
-</entry>
-<entry>
-    <title>Exercise sheet 1</title>
-    <link href="http://sejdm.github.io/mth406/assignments/2023-08-21-exercises01.html" />
-    <id>http://sejdm.github.io/mth406/assignments/2023-08-21-exercises01.html</id>
-    <published>2023-08-21T00:00:00Z</published>
-    <updated>2023-08-22T15:32:07+5:30</updated>
-    <summary type="html"><![CDATA[Exercise sheet 1 has been posted.]]></summary>
-</entry>
-
+    <updated>Unknown</updated>
+    
 </feed>

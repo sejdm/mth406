@@ -2,52 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"
     xmlns:dc="http://purl.org/dc/elements/1.1/">
     <channel>
-        <title>MTH406 Theory of Computation</title>
-        <link>http://sejdm.github.io/mth406</link>
-        <description><![CDATA[Get exercises and announcements]]></description>
-        <atom:link href="http://sejdm.github.io/mth406/rss.xml" rel="self"
+        <title>Shane - RSS feed</title>
+        <link>http://blog.shane</link>
+        <description><![CDATA[Some thoughts]]></description>
+        <atom:link href="http://blog.shane/rss.xml" rel="self"
                    type="application/rss+xml" />
-        <lastBuildDate>2023-10-15T03:32:28+5:30</lastBuildDate>
-        <item>
-    <title>Exercise sheet 5</title>
-    <link>http://sejdm.github.io/mth406/assignments/2023-10-15-exercises05.html</link>
-    <description><![CDATA[Exercise sheet 5 has been posted.]]></description>
-    <pubDate>Sun, 15 Oct 2023 00:00:00 UT</pubDate>
-    <guid>http://sejdm.github.io/mth406/assignments/2023-10-15-exercises05.html</guid>
-    <dc:creator>Shane D'Mello</dc:creator>
-</item>
-<item>
-    <title>Exercise sheet 4</title>
-    <link>http://sejdm.github.io/mth406/assignments/2023-09-26-exercises04.html</link>
-    <description><![CDATA[Exercise sheet 4 has been posted.]]></description>
-    <pubDate>Tue, 26 Sep 2023 00:00:00 UT</pubDate>
-    <guid>http://sejdm.github.io/mth406/assignments/2023-09-26-exercises04.html</guid>
-    <dc:creator>Shane D'Mello</dc:creator>
-</item>
-<item>
-    <title>Exercise sheet 3</title>
-    <link>http://sejdm.github.io/mth406/assignments/2023-09-19-exercises03.html</link>
-    <description><![CDATA[Exercise sheet 3 has been posted.]]></description>
-    <pubDate>Tue, 19 Sep 2023 00:00:00 UT</pubDate>
-    <guid>http://sejdm.github.io/mth406/assignments/2023-09-19-exercises03.html</guid>
-    <dc:creator>Shane D'Mello</dc:creator>
-</item>
-<item>
-    <title>Exercise sheet 2</title>
-    <link>http://sejdm.github.io/mth406/assignments/2023-09-01-exercises02.html</link>
-    <description><![CDATA[Exercise sheet 2 has been posted.]]></description>
-    <pubDate>Fri, 01 Sep 2023 00:00:00 UT</pubDate>
-    <guid>http://sejdm.github.io/mth406/assignments/2023-09-01-exercises02.html</guid>
-    <dc:creator>Shane D'Mello</dc:creator>
-</item>
-<item>
-    <title>Exercise sheet 1</title>
-    <link>http://sejdm.github.io/mth406/assignments/2023-08-21-exercises01.html</link>
-    <description><![CDATA[Exercise sheet 1 has been posted.]]></description>
-    <pubDate>Mon, 21 Aug 2023 00:00:00 UT</pubDate>
-    <guid>http://sejdm.github.io/mth406/assignments/2023-08-21-exercises01.html</guid>
-    <dc:creator>Shane D'Mello</dc:creator>
-</item>
-
+        <lastBuildDate>Unknown</lastBuildDate>
+        
     </channel>
 </rss>
